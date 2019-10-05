@@ -71,7 +71,7 @@
 php artisan vendor:publish --tag=laravelroles &&
 php artisan vendor:publish --tag=laravel2step
 ```
-7. From the projects root folder run `sudo chmod -R 755 ../SudanHD`
+7. From the projects root folder run `sudo chmod -R 755 ../core-master`
 8. From the projects root folder run `php artisan key:generate`
 9. From the projects root folder run `php artisan migrate`
 10. From the projects root folder run `composer dump-autoload`
@@ -85,7 +85,7 @@ php artisan vendor:publish --tag=laravel2step
   * You can watch assets with `yarn run watch`
 
 #### Optionally Build Cache
-1. From the projects root folder run `php artisan config:cache
+1. From the projects root folder run `php artisan config:cache`
 
 ### Seeds
 ##### Seeded Roles
@@ -894,5 +894,3 @@ laravel-auth
 
 * Tree command can be installed using brew: `brew install tree`
 * File tree generated using command `tree -a -I '.git|node_modules|vendor|storage|tests'`
-
-

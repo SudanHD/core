@@ -44,8 +44,10 @@ yarn.lock
 /storage/logs
 /storage/users
 packages/
+resources/views/vendor
+resources/lang/vendor
+public/fonts
 
 # Debug Files
 npm-debug.log
 yarn-error.log
-

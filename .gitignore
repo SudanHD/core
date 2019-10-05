@@ -48,6 +48,7 @@ packages/
 resources/views/vendor
 resources/lang/vendor
 public/fonts
+public/mix-manifest.json
 
 # Debug Files
 npm-debug.log
